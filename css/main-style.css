@@ -1,0 +1,175 @@
+/*General style for Solo-1*/
+
+@font-face {
+    font-family: 'Abbey Down';
+    src: url('../props/Font-Abbey-Down/font-abbey-down-webfont.woff2') format('woff2'),
+         url('../props/Font-Abbey-Down/font-abbey-down-webfont.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Andalus';
+    src: url('../props/Font-Andalus/andalus-webfont.woff2') format('woff2'),
+         url('../props/Font-Andalus/andalus-webfont.woff') format('woff');
+
+}
+
+/*------------------*
+ * Structure rules. *
+ *------------------*/
+
+html {
+    overflow-y: scroll;
+}
+
+body {
+	
+	background: linear-gradient(rgba(255, 255, 255, .3), rgba(0, 0, 0, .3)), url("../media/Falling-asleep-forest.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	color: white;
+	font-family: "Andalus", "Times New Roman", serif;
+	font-size: large;
+	text-shadow: 5px 5px 5px black;
+	width: 1200px;
+	margin: 0 auto;
+}
+
+h1 { 
+	text-align: center;
+	font-family: "Abbey Down", "Times New Roman", serif;
+	font-size: 48px;
+	font-weight: 900;
+	margin: 0em;
+}
+
+/*----------------*
+ * Section rules. *
+ *----------------*/
+
+nav {
+	overflow: hidden;
+	margin: 0px 15px;
+}
+nav ul {
+	list-style-type: none;
+	display: flex;
+	padding: 0px;
+}
+nav ul li {
+	width: 100%;
+	box-sizing: border-box;
+	flex-wrap: nowrap; 
+	float: left;
+}
+nav ul li a {
+	color: white;
+	text-decoration: none;
+	width: 100%;
+	border: 2px solid black;
+	box-sizing: border-box;
+	flex-wrap: nowrap; 
+	float: left;
+	font: bold 24px "Abbey Down";
+  	text-decoration: none;
+  	background-color: rgba(77, 0, 0, .8);
+  	color: lightgray;
+  	padding: 10px 12px 10px 12px;
+  	border-top: 1px solid rgba(204, 204, 204, .8);
+  	border-right: 1px solid rgba(51, 51, 51, .8);
+  	border-bottom: 1px solid rgba(51, 51, 51, .8);
+  	border-left: 1px solid rgba(204, 204, 204, .8);
+  	border-radius: 6px;
+  	vertical-align: middle;
+  	text-align: center;
+}
+nav ul li a:hover {
+	background-color: rgba(50, 0, 0, .8);
+	box-shadow: inset 0px 0px 5px rgb(102, 102, 102);
+	cursor: pointer;
+}
+nav ul li a:active {
+	border-bottom: 3px;
+	border-right: 3px;
+	padding-right: 13px;
+	text-indent: 2px;
+}
+
+footer {
+	margin: 0px 15px;
+	text-align: center;
+}
+footer a{
+	text-decoration: none;
+	color: white;
+	margin: 0 6px;
+}
+
+.section {
+	background-color: rgba(111, 6, 0, .8);
+	margin: 15px;
+	padding: 15px;
+	border-radius: 5px;
+	text-align: justify;
+}
+
+h2 {
+	font-family: "Andalus", "Times New Roman", serif;
+	font-size: 36px;
+	margin: 0em;
+}
+
+hr {
+	width: 97%;
+	opacity: .4;
+}
+
+
+/*----------------*
+ * Specific rules.   *
+ *----------------*/
+
+#time {
+	text-align: right;
+}
+
+audio {
+	width: 100%;
+	margin-bottom: 15px;
+	
+}
+
+#hp a {
+	color: salmon;
+}
+
+#sketch-section {
+	height: 400px;
+	border: 8px #510000FF;
+	border-style: ridge;
+}
+
+.sketch-button {
+	min-width: 100px;
+}
+
+/*----------------*
+ * Other rules.   *
+ *----------------*/
+
+h3 {
+	text-align: center;
+	text-decoration: overline underline;
+	font-size: x-large;
+    margin: 0.4em 0em;
+}
+
+h4 {
+	text-align: center;
+	font-size: small;
+	margin: 0.2em 0em;
+}
+
+p {
+	font-family: 'IM Fell English SC', serif;
+}
+
