@@ -13,7 +13,6 @@ function printTime(){
 setInterval(printTime, 1000);
 
 function bd() {
-	
 	var p = document.getElementById("foot");
 	var c = document.getElementById("prog");
 	p.removeChild(c);
