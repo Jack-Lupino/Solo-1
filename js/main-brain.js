@@ -49,6 +49,10 @@ customElements.define('main-header', Header);
 customElements.define('main-footer', Footer); 
 customElements.define('main-meta', MetaHTML);
 
+$(function() {
+	$("#inject").load('templates/header.html');
+});
+
 function printTime(){
 	let date = new Date();
 	$("#time").html(date.toLocaleTimeString() + ", " + date.toLocaleDateString());
