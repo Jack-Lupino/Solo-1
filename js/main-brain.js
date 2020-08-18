@@ -1,20 +1,13 @@
 function printTime(){
-	var date = new Date();
-	var hour = date.getHours();
-	var minute = date.getMinutes();
-	var second = date.getSeconds();
-
-	(hour).toLocaleString('en-US', {minimumIntegerDigits: 2, useGrouping:false});
-	(minute).toLocaleString('en-US', {minimumIntegerDigits: 2, useGrouping:false});
-	(second).toLocaleString('en-US', {minimumIntegerDigits: 2, useGrouping:false});
-	
-	document.getElementById('time').innerHTML = hour+":"+minute+":"+second;
+	let date = new Date();
+	let formatDate = date.toLocaleTimeString() + ", " + date.toLocaleDateString();
+	document.getElementById('time').innerHTML = formatDate;
 }
 setInterval(printTime, 1000);
 
 function bd() {
-	var p = document.getElementById("foot");
-	var c = document.getElementById("prog");
+	let p = document.getElementById("foot");
+	let c = document.getElementById("prog");
 	p.removeChild(c);
 	alert('Function finished.');
 }
