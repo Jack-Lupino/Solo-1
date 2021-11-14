@@ -44,7 +44,7 @@
 		<!-- Content begins here -->
 
 		<div class="section">
-			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat laborum beatae, iure dolore eligendi accusantium molestias ut quos illum obcaecati sequi nam, enim ullam provident cupiditate amet? Nihil, ipsa, dignissimos!
+			<?php echo = "Hello!" ?> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat laborum beatae, iure dolore eligendi accusantium molestias ut quos illum obcaecati sequi nam, enim ullam provident cupiditate amet? Nihil, ipsa, dignissimos!
 		</div>
 		<main-footer></main-footer>
 		<!-- Content ends here -->
