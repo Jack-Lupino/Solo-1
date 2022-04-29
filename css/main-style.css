@@ -32,7 +32,7 @@ body {
   font-family: "Andalus", "Times New Roman", serif;
   font-size: large;
   text-shadow: 2px 2px 2px black, -1px -1px 2px black;
-  max-width: 30cm;
+  max-width: 75rem;
   width: 98%;
   margin: 0 auto;
 }
@@ -184,7 +184,7 @@ p {
  * Media query rules. *
  *--------------------*/
 
-@media (max-width: 26cm) {
+@media (max-width: 62rem) {
   nav ul {
     list-style-type: none;
     display: grid;
@@ -193,7 +193,7 @@ p {
     padding: 0px;
   }
 }
-@media (max-width: 14cm) {
+@media (max-width: 33rem) {
   nav ul {
     list-style-type: none;
     display: grid;
@@ -202,7 +202,7 @@ p {
     padding: 0px;
   }
 }
-@media (max-width: 10cm) {
+@media (max-width: 23rem) {
   nav ul {
     list-style-type: none;
     display: grid;
@@ -212,14 +212,14 @@ p {
   }
 }
 
-@media (max-width: 19cm) {
+@media (max-width: 45rem) {
   footer ul {
     list-style-type: none;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
   }
 }
-@media (max-width: 11cm) {
+@media (max-width: 26rem) {
   footer ul {
     list-style-type: none;
     display: grid;
