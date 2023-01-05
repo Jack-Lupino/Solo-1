@@ -184,7 +184,7 @@ p {
  * Media query rules. *
  *--------------------*/
 
-@media (max-width: 62rem) {
+@media (max-width: 10.21in) {
   nav ul {
     list-style-type: none;
     display: grid;
@@ -193,7 +193,7 @@ p {
     padding: 0px;
   }
 }
-@media (max-width: 33rem) {
+@media (max-width: 5.36in) {
   nav ul {
     list-style-type: none;
     display: grid;
@@ -202,7 +202,7 @@ p {
     padding: 0px;
   }
 }
-@media (max-width: 23rem) {
+@media (max-width: 3.73in) {
   nav ul {
     list-style-type: none;
     display: grid;
