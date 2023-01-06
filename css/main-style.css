@@ -26,7 +26,7 @@ body {
     url("../media/Falling-asleep-forest.jpg");
   background-attachment: fixed;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: relative;
   background-size: cover;
   color: white;
   font-family: "Andalus", "Times New Roman", serif;
@@ -35,6 +35,15 @@ body {
   max-width: 75rem;
   width: 98%;
   margin: 0 auto;
+}
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('your-image-url.jpg');
 }
 
 h1 {
@@ -103,6 +112,7 @@ footer ul {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: repeat(auto-fill);
+  padding: 0px;
 }
 footer ul li {
   margin: 10px 0;
