@@ -184,7 +184,7 @@ p {
  * Media query rules. *
  *--------------------*/
 
-@media (max-width: 10.21in) {
+@media screen and (orientation:portrait) and (max-width: 10.21in) {
   nav ul {
     list-style-type: none;
     display: grid;
@@ -193,7 +193,7 @@ p {
     padding: 0px;
   }
 }
-@media (max-width: 5.36in) {
+@media screen and (orientation:portrait) and (max-width: 5.36in) {
   nav ul {
     list-style-type: none;
     display: grid;
@@ -202,7 +202,35 @@ p {
     padding: 0px;
   }
 }
-@media (max-width: 3.73in) {
+@media screen and (orientation:portrait) and (max-width: 3.73in) {
+  nav ul {
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(auto-fill);
+    padding: 0px;
+  }
+}
+
+@media screen and (orientation:landscape) and (max-width: 10.21in) {
+  nav ul {
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(auto-fill);
+    padding: 0px;
+  }
+}
+@media screen and (orientation:landscape) and (max-width: 5.36in) {
+  nav ul {
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(auto-fill);
+    padding: 0px;
+  }
+}
+@media screen and (orientation:landscape) and (max-width: 3.73in) {
   nav ul {
     list-style-type: none;
     display: grid;
@@ -225,4 +253,13 @@ p {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
   }
+}
+
+/* Portrait */
+@media screen and (orientation:portrait) {
+  /* Portrait styles */
+}
+/* Landscape */
+@media screen and (orientation:landscape) {
+  /* Landscape styles */
 }
